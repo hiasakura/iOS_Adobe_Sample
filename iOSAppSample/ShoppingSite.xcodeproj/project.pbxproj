@@ -38,6 +38,7 @@
 		74BAEF591A5427D4005E186F /* ShoppingSiteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BAEF581A5427D4005E186F /* ShoppingSiteTests.m */; };
 		74BAEF641A542818005E186F /* Welcome.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 74BAEF631A542818005E186F /* Welcome.jpg */; };
 		74BAEF681A542F9B005E186F /* start-shopping-button.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 74BAEF661A542F9B005E186F /* start-shopping-button.jpg */; };
+		74BB336F1BE637060012C2E0 /* AdobeMobileLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BB336E1BE637060012C2E0 /* AdobeMobileLibrary.a */; };
 		74BB33751BE6382E0012C2E0 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BB33741BE6382E0012C2E0 /* libsqlite3.0.tbd */; };
 		74BB33771BE63A640012C2E0 /* register_now_button.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 74BB33761BE63A640012C2E0 /* register_now_button.jpg */; };
 		74BB33791BE63A730012C2E0 /* welcome_banner.png in Resources */ = {isa = PBXBuildFile; fileRef = 74BB33781BE63A730012C2E0 /* welcome_banner.png */; };
@@ -99,6 +100,7 @@
 		74BAEF631A542818005E186F /* Welcome.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Welcome.jpg; sourceTree = "<group>"; };
 		74BAEF661A542F9B005E186F /* start-shopping-button.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "start-shopping-button.jpg"; sourceTree = "<group>"; };
 		74BB336D1BE636F50012C2E0 /* ADBMobile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADBMobile.h; sourceTree = "<group>"; };
+		74BB336E1BE637060012C2E0 /* AdobeMobileLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = AdobeMobileLibrary.a; sourceTree = "<group>"; };
 		74BB33741BE6382E0012C2E0 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		74BB33761BE63A640012C2E0 /* register_now_button.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = register_now_button.jpg; sourceTree = "<group>"; };
 		74BB33781BE63A730012C2E0 /* welcome_banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = welcome_banner.png; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 			files = (
 				74BB33751BE6382E0012C2E0 /* libsqlite3.0.tbd in Frameworks */,
 				7419B4071A56A50A00E89E00 /* SystemConfiguration.framework in Frameworks */,
+				74BB336F1BE637060012C2E0 /* AdobeMobileLibrary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +139,7 @@
 		7419B40A1A56A5FB00E89E00 /* AdobeMobileLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				74BB336E1BE637060012C2E0 /* AdobeMobileLibrary.a */,
 				74BB336D1BE636F50012C2E0 /* ADBMobile.h */,
 				7419B40C1A56A5FB00E89E00 /* ADBMobileConfig.json */,
 			);
