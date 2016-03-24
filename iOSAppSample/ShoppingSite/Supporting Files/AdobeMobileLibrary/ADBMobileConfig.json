@@ -1,0 +1,37 @@
+{
+    "lastModified": "2015-11-01T11:53:57.030Z",
+    "marketingCloud": {
+        "org": "D44CC6335538201A0A4C98A1@AdobeOrg"
+    },
+    "target": {
+        "clientCode": "adobeinthirofumiasak",
+        "timeout": 10
+    },
+    "audienceManager": {
+        "server": "hirofumiasakura.demdex.net"
+    },
+    "acquisition": {
+        "server": "c00.adobe.com",
+        "appid": "d1c7652de65ea88888ed0005337862a871a52084c1f8b638696e3661cd62eb4d"
+    },
+    "analytics": {
+        "rsids": "hiroasakiosshoppingappdev",
+        "server": "hirofumitestcompany.sc.omtrdc.net",
+        "ssl": true,
+        "offlineEnabled": false,
+        "charset": "UTF-8",
+        "lifecycleTimeout": 300,
+        "privacyDefault": "optedin",
+        "batchLimit": 0,
+        "timezone": "JST",
+        "timezoneOffset": 540,
+        "referrerTimeout": 10,
+        "backdateSessionInfo": false,
+        "poi": []
+    },
+    "messages": [],
+    "remotes": {
+        "analytics.poi": "https://assets.adobedtm.com/b213090c5204bf94318f4ef0539a38b487d10368/scripts/satellite-5635fca964746d10bb000e86.json",
+        "messages": "https://assets.adobedtm.com/b213090c5204bf94318f4ef0539a38b487d10368/scripts/satellite-5635fca764746d3f7d001032.json"
+    }
+}
