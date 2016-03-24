@@ -8,7 +8,9 @@
         "timeout": 10
     },
     "audienceManager": {
-        "server": "hirofumiasakura.demdex.net"
+        "server": "hirofumiasakura.demdex.net",
+        "analyticsForwardingEnabled": false,
+        "timeout": 5
     },
     "acquisition": {
         "server": "c00.adobe.com",
