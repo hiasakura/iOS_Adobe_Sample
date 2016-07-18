@@ -12,19 +12,12 @@
 		7419B40E1A56A5FB00E89E00 /* ADBMobileConfig.json in Resources */ = {isa = PBXBuildFile; fileRef = 7419B40C1A56A5FB00E89E00 /* ADBMobileConfig.json */; };
 		7454FCD51A56AC6D003CD66D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7454FCD41A56AC6D003CD66D /* Images.xcassets */; };
 		7454FCDC1A57752B003CD66D /* item_garlic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7454FCDB1A57752B003CD66D /* item_garlic.jpg */; };
+		745D85011D3C544F00F026A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74BAEF461A5427D4005E186F /* Main.storyboard */; };
 		749D34B51A5440F60070EC1F /* TopController.m in Sources */ = {isa = PBXBuildFile; fileRef = 749D34B41A5440F60070EC1F /* TopController.m */; };
 		749D34B81A54413D0070EC1F /* CategoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 749D34B71A54413D0070EC1F /* CategoryController.m */; };
-		749D34BA1A54474F0070EC1F /* categorybanner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 749D34B91A54474F0070EC1F /* categorybanner.jpg */; };
-		749D34BC1A5447B20070EC1F /* categorybanner2.png in Resources */ = {isa = PBXBuildFile; fileRef = 749D34BB1A5447B20070EC1F /* categorybanner2.png */; };
 		749D34BF1A54DB090070EC1F /* ItemListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 749D34BE1A54DB090070EC1F /* ItemListController.m */; };
-		749D34C21A54DB680070EC1F /* ItemSearchResultController.m in Sources */ = {isa = PBXBuildFile; fileRef = 749D34C11A54DB680070EC1F /* ItemSearchResultController.m */; };
-		749D34C81A54F7D00070EC1F /* item_apple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 749D34C31A54F7D00070EC1F /* item_apple.jpg */; };
 		749D34CA1A54F7D00070EC1F /* item_car.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 749D34C51A54F7D00070EC1F /* item_car.jpg */; };
-		749D34CC1A54F7D00070EC1F /* item_mountain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 749D34C71A54F7D00070EC1F /* item_mountain.jpg */; };
 		749D34D01A5526D90070EC1F /* item_fashion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 749D34CD1A5526D90070EC1F /* item_fashion.jpg */; };
-		749D34D11A5526D90070EC1F /* item_game.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 749D34CE1A5526D90070EC1F /* item_game.jpg */; };
-		749D34D21A5526D90070EC1F /* item_nurse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 749D34CF1A5526D90070EC1F /* item_nurse.jpg */; };
-		749D34D41A5527480070EC1F /* item_book.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 749D34D31A5527480070EC1F /* item_book.jpg */; };
 		749D34D71A5532220070EC1F /* ItemDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 749D34D61A5532220070EC1F /* ItemDetailController.m */; };
 		749D34DA1A5532950070EC1F /* CartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 749D34D91A5532950070EC1F /* CartViewController.m */; };
 		749D34DD1A55330D0070EC1F /* ThankYouController.m in Sources */ = {isa = PBXBuildFile; fileRef = 749D34DC1A55330D0070EC1F /* ThankYouController.m */; };
@@ -33,15 +26,11 @@
 		749D34E31A55360F0070EC1F /* thnakyou.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 749D34E21A55360F0070EC1F /* thnakyou.jpg */; };
 		74BAEF3F1A5427D4005E186F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BAEF3E1A5427D4005E186F /* main.m */; };
 		74BAEF421A5427D4005E186F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BAEF411A5427D4005E186F /* AppDelegate.m */; };
-		74BAEF481A5427D4005E186F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74BAEF461A5427D4005E186F /* Main.storyboard */; };
 		74BAEF4D1A5427D4005E186F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74BAEF4B1A5427D4005E186F /* LaunchScreen.xib */; };
 		74BAEF591A5427D4005E186F /* ShoppingSiteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BAEF581A5427D4005E186F /* ShoppingSiteTests.m */; };
-		74BAEF641A542818005E186F /* Welcome.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 74BAEF631A542818005E186F /* Welcome.jpg */; };
 		74BAEF681A542F9B005E186F /* start-shopping-button.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 74BAEF661A542F9B005E186F /* start-shopping-button.jpg */; };
 		74BB336F1BE637060012C2E0 /* AdobeMobileLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BB336E1BE637060012C2E0 /* AdobeMobileLibrary.a */; };
 		74BB33751BE6382E0012C2E0 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BB33741BE6382E0012C2E0 /* libsqlite3.0.tbd */; };
-		74BB33771BE63A640012C2E0 /* register_now_button.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 74BB33761BE63A640012C2E0 /* register_now_button.jpg */; };
-		74BB33791BE63A730012C2E0 /* welcome_banner.png in Resources */ = {isa = PBXBuildFile; fileRef = 74BB33781BE63A730012C2E0 /* welcome_banner.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,19 +54,10 @@
 		749D34B41A5440F60070EC1F /* TopController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TopController.m; path = ShoppingSite/Controller/TopController.m; sourceTree = SOURCE_ROOT; };
 		749D34B61A5441300070EC1F /* CategoryController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CategoryController.h; path = ShoppingSite/Controller/CategoryController.h; sourceTree = SOURCE_ROOT; };
 		749D34B71A54413D0070EC1F /* CategoryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CategoryController.m; path = ShoppingSite/Controller/CategoryController.m; sourceTree = SOURCE_ROOT; };
-		749D34B91A54474F0070EC1F /* categorybanner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = categorybanner.jpg; sourceTree = "<group>"; };
-		749D34BB1A5447B20070EC1F /* categorybanner2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = categorybanner2.png; sourceTree = "<group>"; };
 		749D34BD1A54DAF00070EC1F /* ItemListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ItemListController.h; path = ShoppingSite/Controller/ItemListController.h; sourceTree = SOURCE_ROOT; };
 		749D34BE1A54DB090070EC1F /* ItemListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ItemListController.m; path = ShoppingSite/Controller/ItemListController.m; sourceTree = SOURCE_ROOT; };
-		749D34C01A54DB3D0070EC1F /* ItemSearchResultController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ItemSearchResultController.h; path = ShoppingSite/Controller/ItemSearchResultController.h; sourceTree = SOURCE_ROOT; };
-		749D34C11A54DB680070EC1F /* ItemSearchResultController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ItemSearchResultController.m; path = ShoppingSite/Controller/ItemSearchResultController.m; sourceTree = SOURCE_ROOT; };
-		749D34C31A54F7D00070EC1F /* item_apple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = item_apple.jpg; sourceTree = "<group>"; };
 		749D34C51A54F7D00070EC1F /* item_car.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = item_car.jpg; sourceTree = "<group>"; };
-		749D34C71A54F7D00070EC1F /* item_mountain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = item_mountain.jpg; sourceTree = "<group>"; };
 		749D34CD1A5526D90070EC1F /* item_fashion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = item_fashion.jpg; sourceTree = "<group>"; };
-		749D34CE1A5526D90070EC1F /* item_game.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = item_game.jpg; sourceTree = "<group>"; };
-		749D34CF1A5526D90070EC1F /* item_nurse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = item_nurse.jpg; sourceTree = "<group>"; };
-		749D34D31A5527480070EC1F /* item_book.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = item_book.jpg; sourceTree = "<group>"; };
 		749D34D51A5531A60070EC1F /* ItemDetailController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ItemDetailController.m; path = ShoppingSite/Controller/ItemDetailController.m; sourceTree = SOURCE_ROOT; };
 		749D34D61A5532220070EC1F /* ItemDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ItemDetailController.m; path = ShoppingSite/Controller/ItemDetailController.m; sourceTree = SOURCE_ROOT; };
 		749D34D81A5532720070EC1F /* CartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CartViewController.h; path = ShoppingSite/Controller/CartViewController.h; sourceTree = SOURCE_ROOT; };
@@ -97,13 +77,10 @@
 		74BAEF521A5427D4005E186F /* ShoppingSiteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoppingSiteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74BAEF571A5427D4005E186F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74BAEF581A5427D4005E186F /* ShoppingSiteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShoppingSiteTests.m; sourceTree = "<group>"; };
-		74BAEF631A542818005E186F /* Welcome.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Welcome.jpg; sourceTree = "<group>"; };
 		74BAEF661A542F9B005E186F /* start-shopping-button.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "start-shopping-button.jpg"; sourceTree = "<group>"; };
 		74BB336D1BE636F50012C2E0 /* ADBMobile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADBMobile.h; sourceTree = "<group>"; };
 		74BB336E1BE637060012C2E0 /* AdobeMobileLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = AdobeMobileLibrary.a; sourceTree = "<group>"; };
 		74BB33741BE6382E0012C2E0 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
-		74BB33761BE63A640012C2E0 /* register_now_button.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = register_now_button.jpg; sourceTree = "<group>"; };
-		74BB33781BE63A730012C2E0 /* welcome_banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = welcome_banner.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,21 +191,11 @@
 			children = (
 				749D34DE1A5533BB0070EC1F /* add_cart.png */,
 				749D34E01A5535050070EC1F /* buy_now.jpg */,
-				749D34B91A54474F0070EC1F /* categorybanner.jpg */,
-				749D34BB1A5447B20070EC1F /* categorybanner2.png */,
-				749D34C31A54F7D00070EC1F /* item_apple.jpg */,
-				749D34D31A5527480070EC1F /* item_book.jpg */,
 				749D34C51A54F7D00070EC1F /* item_car.jpg */,
 				749D34CD1A5526D90070EC1F /* item_fashion.jpg */,
-				749D34CE1A5526D90070EC1F /* item_game.jpg */,
 				7454FCDB1A57752B003CD66D /* item_garlic.jpg */,
-				749D34C71A54F7D00070EC1F /* item_mountain.jpg */,
-				749D34CF1A5526D90070EC1F /* item_nurse.jpg */,
-				74BB33761BE63A640012C2E0 /* register_now_button.jpg */,
 				74BAEF661A542F9B005E186F /* start-shopping-button.jpg */,
 				749D34E21A55360F0070EC1F /* thnakyou.jpg */,
-				74BB33781BE63A730012C2E0 /* welcome_banner.png */,
-				74BAEF631A542818005E186F /* Welcome.jpg */,
 			);
 			path = Asset;
 			sourceTree = "<group>";
@@ -242,8 +209,6 @@
 				749D34B71A54413D0070EC1F /* CategoryController.m */,
 				749D34BD1A54DAF00070EC1F /* ItemListController.h */,
 				749D34BE1A54DB090070EC1F /* ItemListController.m */,
-				749D34C01A54DB3D0070EC1F /* ItemSearchResultController.h */,
-				749D34C11A54DB680070EC1F /* ItemSearchResultController.m */,
 				749D34D51A5531A60070EC1F /* ItemDetailController.m */,
 				749D34D61A5532220070EC1F /* ItemDetailController.m */,
 				749D34D81A5532720070EC1F /* CartViewController.h */,
@@ -345,25 +310,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				749D34DF1A5533BB0070EC1F /* add_cart.png in Resources */,
-				749D34D41A5527480070EC1F /* item_book.jpg in Resources */,
 				74BAEF681A542F9B005E186F /* start-shopping-button.jpg in Resources */,
 				749D34E11A5535050070EC1F /* buy_now.jpg in Resources */,
-				749D34BC1A5447B20070EC1F /* categorybanner2.png in Resources */,
-				749D34CC1A54F7D00070EC1F /* item_mountain.jpg in Resources */,
-				74BAEF481A5427D4005E186F /* Main.storyboard in Resources */,
 				7454FCD51A56AC6D003CD66D /* Images.xcassets in Resources */,
-				749D34D11A5526D90070EC1F /* item_game.jpg in Resources */,
 				7419B40E1A56A5FB00E89E00 /* ADBMobileConfig.json in Resources */,
-				74BB33771BE63A640012C2E0 /* register_now_button.jpg in Resources */,
 				74BAEF4D1A5427D4005E186F /* LaunchScreen.xib in Resources */,
-				749D34D21A5526D90070EC1F /* item_nurse.jpg in Resources */,
-				74BAEF641A542818005E186F /* Welcome.jpg in Resources */,
-				749D34BA1A54474F0070EC1F /* categorybanner.jpg in Resources */,
 				7454FCDC1A57752B003CD66D /* item_garlic.jpg in Resources */,
 				749D34D01A5526D90070EC1F /* item_fashion.jpg in Resources */,
-				74BB33791BE63A730012C2E0 /* welcome_banner.png in Resources */,
-				749D34C81A54F7D00070EC1F /* item_apple.jpg in Resources */,
 				749D34E31A55360F0070EC1F /* thnakyou.jpg in Resources */,
+				745D85011D3C544F00F026A1 /* Main.storyboard in Resources */,
 				749D34CA1A54F7D00070EC1F /* item_car.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -391,7 +346,6 @@
 				7419B3F91A56250700E89E00 /* ItemModel.m in Sources */,
 				749D34BF1A54DB090070EC1F /* ItemListController.m in Sources */,
 				749D34B51A5440F60070EC1F /* TopController.m in Sources */,
-				749D34C21A54DB680070EC1F /* ItemSearchResultController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -531,6 +485,7 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -552,6 +507,7 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

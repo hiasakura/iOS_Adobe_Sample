@@ -24,7 +24,6 @@ NSString* tmpDelivery;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
         
     // 商品詳細情報の取得
     id item   = [[ItemModel alloc] init];
@@ -43,12 +42,7 @@ NSString* tmpDelivery;
 
     // 画面の遷移元判定
     NSString* pathToItemDetail;
-    if (_cateKey != nil && [_cateKey length] > 0) {
-        pathToItemDetail = @"FromItemList";
-        
-    } else if(_cateKey == nil && [_cateKey length] == 0){
-        pathToItemDetail = @"FromItemSearchResult";
-    }
+    pathToItemDetail = @"FromItemList";
     
     NSMutableDictionary *contextData = [NSMutableDictionary dictionary];
     [contextData setObject:@"event1" forKey:@"&&events"];
@@ -60,28 +54,17 @@ NSString* tmpDelivery;
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 // カート追加処理
 - (IBAction)clickAddCart:(id)sender {
-    
     [self performSegueWithIdentifier:@"CartViewSegue" sender:self];
-
 }
 
 // 戻るボタン処理
 - (IBAction)BtnBack:(id)sender {
     NSString* backSegue;
-    
-    // カテゴリを辿ったかで戻り先を判定
-    if (_cateKey != nil && [_cateKey length] > 0) {
-        backSegue = @"BackItemList";
-        
-    } else if(_cateKey == nil && [_cateKey length] == 0){
-        backSegue = @"BackItemSearchResult";
-    }
-
+    backSegue = @"BackItemList";
     [self performSegueWithIdentifier:backSegue sender:self];
 }
 

@@ -17,29 +17,22 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-    
     NSMutableDictionary *contextData = [NSMutableDictionary dictionary];
     [contextData setObject:@"Hello World Shopping" forKey:@"prop1"];
     [ADBMobile trackState:@"Top" data:contextData];
-
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 // StartShoppinngボタン処理
 - (IBAction)StartShopping:(UIButton *)sender {
-
     [self performSegueWithIdentifier:@"CategorySegue" sender:self];
-
 }
 
 // 画面遷移処理
 - (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    
     if ([segue.identifier isEqualToString:@"CategorySegue"]) {
         CategoryController *cateCon = segue.destinationViewController;
         cateCon.myValue = @"CategorySegueへ";
